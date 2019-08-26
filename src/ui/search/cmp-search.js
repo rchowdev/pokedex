@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Search = ({ onChange, value }) => (
+const Search = ({ onChange, value = '' }) => (
   <input
     type="text"
     onChange={onChange}
